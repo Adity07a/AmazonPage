@@ -1,0 +1,65 @@
+ body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    /* Top Navigation Bar */
+    .navbar {
+      background-color: #232f3e;
+      color: white;
+     height: 50px;
+      padding: 4px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .menu1{
+         background-color: #232f3e;
+          color: white;
+          height: 30px;
+          padding-left: 20px;
+
+    }
+  .move{
+    padding-left: 100px;
+  }
+    .navbar input[type="text"] {
+      padding: 6px;
+      width: 400px;
+    }
+
+    .menu {
+      display: flex;
+      gap: 20px;
+      background-color: #f3f3f3;
+      padding: 10px;
+    }
+
+    .menu a {
+      text-decoration: none;
+      color: #111;
+    }
+
+    /* Banner Section */
+    .banner {
+      position: relative;
+      background-image: url('Cats.jpeg'); 
+      background-size: cover;
+      height: 400px;
+      color: white;
+    }
+
+    .banner-text {
+      position: absolute;
+      left: 30px;
+      top: 50px;
+      background: rgba(0, 0, 0, 0.5);
+      padding: 20px;
+    }
+.fa-magnifying-glass {
+      color: rgb(245, 198, 31); /* Or any valid color value */
+    }
+   
+    .hov:hover{
+        background-color: gray;
+    }
